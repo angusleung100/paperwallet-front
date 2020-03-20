@@ -1,0 +1,27 @@
+#landing    {
+    background-color: palegreen;
+    color: white;
+}
+
+#landing button {
+    float: right;
+    background-color: seashell;
+    margin: 5%;
+}
+
+#features   {
+    background-color: lightgray;
+}
+
+#features img   {
+    margin: 5%;
+}
+
+#gallery    {
+    
+}
+
+#gallery img    {
+    margin: 5%;
+    border: 1px solid gray;
+}
