@@ -37,9 +37,13 @@
 
   <!-- Initialize Firebase -->
   <script src="/__/firebase/init.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="processing.js"></script>
 
 </head>
 <body>
+
+
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -68,6 +72,7 @@
                     <h3><u>Back</u></h3>
                     <img src="#" width="324px" height="204px">
                 </div>
+                <script>document.write("<img src='"+qrRequestURL+"'>");</script>
             </div>
             <br>
             <div class="row">
