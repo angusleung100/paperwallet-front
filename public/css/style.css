@@ -3,6 +3,11 @@
     color: white;
 }
 
+#landing a:hover, a:visited, a:link {
+    text-decoration: none;
+    color: white;
+}
+
 #landing button {
     float: right;
     background-color: seashell;

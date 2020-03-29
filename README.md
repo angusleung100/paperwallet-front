@@ -18,8 +18,8 @@ Website sample for my paper wallet project
 - Create ordering/creation system for wallets
 - Ability to create and let users to download their new wallet
 
-- Set up MongoDB
 - Create form with javascript
+- Create page for downloading the wallet
 
 Website features
 - Show off paper wallet
