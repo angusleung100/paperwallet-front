@@ -63,16 +63,94 @@
       <div class="row">
         <div class="twelve columns" style="margin-top: 5%">
             <h2>Your New Paper Wallet</h2>
+
+            <style>
+              .front-face {
+                position: relative;
+                display: inline-block;
+                
+                width: 8.56cm;
+                height: 5.398cm;
+
+
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 12px;
+              }
+
+              .front-face #front-wallet-address {
+                position: absolute;
+                top: 3.6cm;
+                left: 0.65cm;
+                color: white;
+              }
+
+              .front-face #coin-name {
+                position: absolute;
+                top: 4.6cm;
+                right: 1cm;
+                color: white;
+              }
+
+              .front-face #wallet-code img {
+                position: absolute;
+                color: white;
+                top: 1.4cm;
+                right: 5.95cm;
+                width: 2cm;
+                height: 2cm;
+              }
+            
+              .back-face  {
+                position: relative;
+                display: inline-block;
+                
+                width: 8.56cm;
+                height: 5.398cm;
+
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 12px;
+              }
+
+              .back-face #back-wallet-address {
+                position: absolute;
+                top: 4.2cm;
+                left: 0.8cm;
+                color: black;
+              }
+
+              .back-face #wallet-code img {
+                position: absolute;
+                color: white;
+                top: 0.75cm;
+                right: 4.95cm;
+                width: 3cm;
+                height: 3cm;
+              }
+            </style>
+
+
+
             <div class="row">
                 <div class="six columns">
                     <h3><u>Front</u></h3>
-                    <img src="#" width="324px" height="204px">
+                    <div class="front-face">
+                      <img src="front-template.png" width="324px" height="204px">
+                      <span id="front-wallet-address"><script>document.write(walletAddress);</script></span>
+                      <span id="coin-name"><script>document.write(coinName);</script></span>
+                      <span id="wallet-code"><script>document.write("<img src='"+qrRequestURL+"'>");</script></span>
+                    </div>
                 </div>
                 <div class="six columns">
                     <h3><u>Back</u></h3>
-                    <img src="#" width="324px" height="204px">
+                    <div class="back-face">
+                      <img src="back-template.png" width="324px" height="204px">
+                      <span id="back-wallet-address"><script>document.write(walletAddress);</script></span>
+                      <span id="wallet-code"><script>document.write("<img src='"+qrRequestURL+"'>");</script>
+                    </div>
                 </div>
-                <script>document.write("<img src='"+qrRequestURL+"'>");</script>
+                
             </div>
             <br>
             <div class="row">
