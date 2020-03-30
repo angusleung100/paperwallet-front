@@ -63,6 +63,13 @@
     color: white;
   }
 
+  .front-face #wallet-name {
+    position: absolute;
+    top: 4.6cm;
+    left: 0.65cm;
+    color: white;
+  }
+
   .front-face #wallet-code img {
     position: absolute;
     color: white;
