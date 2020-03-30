@@ -22,11 +22,80 @@
     margin: 5%;
 }
 
-#gallery    {
-    
-}
-
 #gallery img    {
     margin: 5%;
     border: 1px solid gray;
 }
+
+#tos    {
+    color: black;
+}
+
+#privacy    {
+    color: black;
+}
+
+/* Wallet */
+.front-face {
+    position: relative;
+    display: inline-block;
+    
+    width: 8.56cm;
+    height: 5.398cm;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .front-face #front-wallet-address {
+    position: absolute;
+    top: 3.6cm;
+    left: 0.65cm;
+    color: white;
+  }
+
+  .front-face #coin-name {
+    position: absolute;
+    top: 4.6cm;
+    right: 1cm;
+    color: white;
+  }
+
+  .front-face #wallet-code img {
+    position: absolute;
+    color: white;
+    top: 1.4cm;
+    right: 5.95cm;
+    width: 2cm;
+    height: 2cm;
+  }
+
+  .back-face  {
+    position: relative;
+    display: inline-block;
+    
+    width: 8.56cm;
+    height: 5.398cm;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .back-face #back-wallet-address {
+    position: absolute;
+    top: 4.2cm;
+    left: 0.8cm;
+    color: black;
+  }
+
+  .back-face #wallet-code img {
+    position: absolute;
+    color: white;
+    top: 0.75cm;
+    right: 4.95cm;
+    width: 3cm;
+    height: 3cm;
+  }

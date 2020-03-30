@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Paper Wallet Front - Generated Wallet</title>
+  <title>Paper Wallet Front - Terms</title>
   <meta name="description" content="A new take on paper wallets for cryptocurrencies">
   <meta name="author" content="">
 
@@ -37,13 +37,10 @@
 
   <!-- Initialize Firebase -->
   <script src="/__/firebase/init.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-  <script src="processing.js"></script>
 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 <body>
-
-
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -62,46 +59,31 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns" style="margin-top: 5%">
-            <h2>Your New Paper Wallet</h2>
+          <h2>Terms</h2>
+          
+          <ul>
+              <li>Use this website at your own risk</li>
+              <li>This is an open-source MIT license project</li>
+              <li>For more info on the project, please visit the README</li>
+          </ul>
 
-            <div class="row">
-                <div class="six columns">
-                    <h3><u>Front</u></h3>
-                    <div class="front-face">
-                      <img src="img/front-template.png" width="324px" height="204px">
-                      <span id="front-wallet-address"><script>document.write(walletAddress);</script></span>
-                      <span id="coin-name"><script>document.write(coinName);</script></span>
-                      <span id="wallet-code"><script>document.write("<img src='"+qrRequestURL+"'>");</script></span>
-                    </div>
-                </div>
-                <div class="six columns">
-                    <h3><u>Back</u></h3>
-                    <div class="back-face">
-                      <img src="img/back-template.png" width="324px" height="204px">
-                      <span id="back-wallet-address"><script>document.write(walletAddress);</script></span>
-                      <span id="wallet-code"><script>document.write("<img src='"+qrRequestURL+"'>");</script>
-                    </div>
-                </div>
-                
-            </div>
-            <br>
-            <div class="row">
-                <h3>Instructions</h3>
-                <ol>
-                    <li>Print off this page (Ctrl + P). The paper wallet front and back are set to the same size as a standard credit card.</li>
-                    <li>Cut along the dotted borders around the front and back portions of the paper wallet card.</li>
-                    <li>Cut a 3.37" by 2.125" rectangular piece of thin carton (Granola bar boxes are perfect).</li>
-                    <li>Glue both portions of the paper wallet card to the front and back sides of the thin carton. Carefully align the edges.</li>
-                    <li>Enjoy your new paper wallet! :)</li>
-                </ol>
-            </div>
-            
-            
         
       </div>
       </div>
     </div>
-  </div>  
+  </div>
+  
+  <hr>
+  <div id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns" style="margin-top: 5%">
+            <h2>Gallery</h2>
+            <img src="img/coloured mockups.png" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>    
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
